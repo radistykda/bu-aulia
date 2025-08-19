@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class belanjabuah {
     public static void main(String[] args) {
+        System.out.println("====TOKO BUAH ADIS====");
          Scanner input = new Scanner (System.in);
          System.out.println("jumlah buah apel: ");
         int apel= input.nextInt();
@@ -17,6 +18,7 @@ public class belanjabuah {
         bayar=input.nextDouble();
         Kembalian = bayar-total;
         System.out.println("kembalian anda adalah: "+Kembalian);
+        System.out.println("====TERIMAKASIH SELAMAT DATANG KEMBALI====");
         
 
 
