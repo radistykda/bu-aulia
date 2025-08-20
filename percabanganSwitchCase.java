@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class percabanganSwitchCase {
     public static void main(String[] args) {
-        Scanner input = new Scanner (System.in);   
+        Scanner input = new Scanner(System.in);
         System.out.println("Masukan warna lampu: ");
         String lampu = input.next();
 
@@ -11,16 +11,17 @@ public class percabanganSwitchCase {
                 System.out.println("Anda harus berhenti!");
                 break;
             case "kuning":
-            System.out.println("Siap-siap berhenti!");
+                System.out.println("Siap-siap berhenti!");
+                break;
             case "hijau":
-            System.out.println("Anda boleh jalan!");
-                
-                default:
+                System.out.println("Anda boleh jalan!");
+                break;
+
+            default:
                 System.out.println("hm? Salah ketik yaa?");
                 break;
         }
 
-    
     }
-    
+
 }
